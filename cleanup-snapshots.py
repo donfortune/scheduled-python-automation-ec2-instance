@@ -1,7 +1,7 @@
 import boto3
 from operator import itemgetter
 
-ec2_client = boto3.client('ec2', region_name="eu-west-3")
+ec2_client = boto3.client('ec2', region_name="us-east-2")
 
 volumes = ec2_client.describe_volumes(
     Filters=[
