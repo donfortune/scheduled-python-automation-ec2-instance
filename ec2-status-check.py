@@ -1,4 +1,4 @@
-import boto3
+import boto3    #aws library for python
 import schedule
 
 ec2_client = boto3.client('ec2', region_name='us-east-2')
