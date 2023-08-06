@@ -1,4 +1,4 @@
-import boto3
+import boto3 #python lib to interact with Aws
 import schedule
 
 client = boto3.client('ec2', region_name='us-east-2')
